@@ -1,0 +1,29 @@
+建立一個 git repos
+$ git init
+
+查詢檔案狀態
+$ git status
+
+加到 git 追蹤
+$ git add 檔案名稱
+
+
+保存進度,存檔
+$ git commit (會到unix or linux 編輯器)
+
+-m 不會到編輯器去
+$ git commit -m "打入修改了什麼東西的訊息"
+
+
+上傳到github, 先建立要傳上去網址
+
+$ git remote add [自訂名稱] [網址.git]
+
+上傳到github
+
+$ git push -u [remote名稱] [branch名稱] (測試中的branch 是master)
+
+-u 是指會把remote 預設成origin, 之後只打git push 會將remote 預設成origin
+
+從github 上,下載下來
+git clone [網址]
